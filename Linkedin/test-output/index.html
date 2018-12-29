@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>E:\Eclipse_24_03_2018\Linkedin\testng.xml</span>
+                    <span>F:\git\repository\Linkedin\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linkedIN.Linkedin.AtSignupInvalidPhone" hash-for-method="AtSignupInvalidFirstName1">AtSignupInvalidFirstName1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +115,47 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linkedIN.Linkedin.LoginPage" hash-for-method="f">f</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linkedIN.Linkedin.AtLoginValidBack" hash-for-method="AtLoginValidBack1">AtLoginValidBack1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linkedIN.Linkedin.AtSignupInavlidMail" hash-for-method="AtSignupInavlidMail1">AtSignupInavlidMail1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linkedIN.Linkedin.AtSignupInvalidFirstName" hash-for-method="AtSignupInvalidFirstName1">AtSignupInvalidFirstName1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linkedIN.Linkedin.AtSignupInvalidPassword" hash-for-method="AtSignupInvalidFirstName1">AtSignupInvalidFirstName1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linkedIN.Linkedin.AtSigupInvalidLastName" hash-for-method="AtSigupInvalidLastName1">AtSigupInvalidLastName1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linkedIN.Linkedin.AtInvalidBlank" hash-for-method="Blank">Blank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linkedIN.Linkedin.AtLoginInavlidBlankPassword" hash-for-method="Blank">Blank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linkedIN.Linkedin.ValidLogin" hash-for-method="ValidLogin1">ValidLogin1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.linkedIN.Linkedin.AtLoginInvalid" hash-for-method="invalid">invalid</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -116,17 +170,157 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.linkedIN.Linkedin.LoginPage</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.linkedIN.Linkedin.AtSignupInvalidPhone</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
+                  <a name="AtSignupInvalidFirstName1">
+                  </a> <!-- AtSignupInvalidFirstName1 -->
+                  <span class="method-name">AtSignupInvalidFirstName1</span>
+                  <div class="stack-trace">java.lang.AssertionError: Erro for data input expected [Please enter a valid phone number and select your country code.] but found [Please enter a valid first name]
+	at com.linkedIN.PageActions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
+	at com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidFirstName1(AtSignupInvalidPhone.java:24)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.linkedIN.Linkedin.AtSigupInvalidLastName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AtSigupInvalidLastName1">
+                  </a> <!-- AtSigupInvalidLastName1 -->
+                  <span class="method-name">AtSigupInvalidLastName1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.linkedIN.Linkedin.AtSignupInvalidPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AtSignupInvalidFirstName1">
+                  </a> <!-- AtSignupInvalidFirstName1 -->
+                  <span class="method-name">AtSignupInvalidFirstName1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.linkedIN.Linkedin.AtSignupInvalidFirstName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AtSignupInvalidFirstName1">
+                  </a> <!-- AtSignupInvalidFirstName1 -->
+                  <span class="method-name">AtSignupInvalidFirstName1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.linkedIN.Linkedin.AtLoginInvalid</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalid">
+                  </a> <!-- invalid -->
+                  <span class="method-name">invalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.linkedIN.Linkedin.AtSignupInavlidMail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AtSignupInavlidMail1">
+                  </a> <!-- AtSignupInavlidMail1 -->
+                  <span class="method-name">AtSignupInavlidMail1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.linkedIN.Linkedin.AtLoginValidBack</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AtLoginValidBack1">
+                  </a> <!-- AtLoginValidBack1 -->
+                  <span class="method-name">AtLoginValidBack1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.linkedIN.Linkedin.AtLoginInavlidBlankPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Blank">
+                  </a> <!-- Blank -->
+                  <span class="method-name">Blank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.linkedIN.Linkedin.AtInvalidBlank</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Blank">
+                  </a> <!-- Blank -->
+                  <span class="method-name">Blank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.linkedIN.Linkedin.ValidLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidLogin1">
+                  </a> <!-- ValidLogin1 -->
+                  <span class="method-name">ValidLogin1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,16 +328,28 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\Eclipse_24_03_2018\Linkedin\testng.xml</span>
+            <span class="header-content">F:\git\repository\Linkedin\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.linkedIN.Resources.CustomListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.linkedIN.Linkedin.LoginPage&quot;/&gt;
+      &lt;class name=&quot;com.linkedIN.Linkedin.AtSignupInavlidMail&quot;/&gt;
+      &lt;class name=&quot;com.linkedIN.Linkedin.AtSignupInvalidFirstName&quot;/&gt;
+      &lt;class name=&quot;com.linkedIN.Linkedin.ValidLogin&quot;/&gt;
+      &lt;class name=&quot;com.linkedIN.Linkedin.AtSignupInvalidPassword&quot;/&gt;
+      &lt;class name=&quot;com.linkedIN.Linkedin.AtInvalidBlank&quot;/&gt;
+      &lt;class name=&quot;com.linkedIN.Linkedin.AtSigupInvalidLastName&quot;/&gt;
+      &lt;class name=&quot;com.linkedIN.Linkedin.AtLoginValidBack&quot;/&gt;
+      &lt;class name=&quot;com.linkedIN.Linkedin.AtSignupInvalidPhone&quot;/&gt;
+      &lt;class name=&quot;com.linkedIN.Linkedin.AtLoginInvalid&quot;/&gt;
+      &lt;class name=&quot;com.linkedIN.Linkedin.AtLoginInavlidBlankPassword&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -157,7 +363,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (10 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,16 +389,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'f')
-data.setCell(0, 2, 'com.linkedIN.Linkedin.LoginPage')
-data.setCell(0, 3, 151);
+data.setCell(0, 1, 'AtSignupInavlidMail1')
+data.setCell(0, 2, 'com.linkedIN.Linkedin.AtSignupInavlidMail')
+data.setCell(0, 3, 9965);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidLogin1')
+data.setCell(1, 2, 'com.linkedIN.Linkedin.ValidLogin')
+data.setCell(1, 3, 6901);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AtLoginValidBack1')
+data.setCell(2, 2, 'com.linkedIN.Linkedin.AtLoginValidBack')
+data.setCell(2, 3, 6578);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'invalid')
+data.setCell(3, 2, 'com.linkedIN.Linkedin.AtLoginInvalid')
+data.setCell(3, 3, 6504);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AtSigupInvalidLastName1')
+data.setCell(4, 2, 'com.linkedIN.Linkedin.AtSigupInvalidLastName')
+data.setCell(4, 3, 5726);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'AtSignupInvalidFirstName1')
+data.setCell(5, 2, 'com.linkedIN.Linkedin.AtSignupInvalidFirstName')
+data.setCell(5, 3, 5685);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'AtSignupInvalidFirstName1')
+data.setCell(6, 2, 'com.linkedIN.Linkedin.AtSignupInvalidPassword')
+data.setCell(6, 3, 5653);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'AtSignupInvalidFirstName1')
+data.setCell(7, 2, 'com.linkedIN.Linkedin.AtSignupInvalidPhone')
+data.setCell(7, 3, 5596);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Blank')
+data.setCell(8, 2, 'com.linkedIN.Linkedin.AtLoginInavlidBlankPassword')
+data.setCell(8, 3, 5350);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Blank')
+data.setCell(9, 2, 'com.linkedIN.Linkedin.AtInvalidBlank')
+data.setCell(9, 3, 5244);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 151 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -218,27 +460,156 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.linkedIN.Linkedin.LoginPage</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">beforeSuite</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              <div class="chronological-class-name">com.linkedIN.Linkedin.AtSignupInavlidMail</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">29 ms</span>
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">f</span>
-                <span class="method-start">35118 ms</span>
+                <span class="method-name">AtSignupInavlidMail1</span>
+                <span class="method-start">26385 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">35274 ms</span>
+                <span class="method-name">TearDown</span>
+                <span class="method-start">36353 ms</span>
               </div> <!-- configuration-class after -->
-              <div class="configuration-suite after">
-                <span class="method-name">afterSuite</span>
-                <span class="method-start">39353 ms</span>
-              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.linkedIN.Linkedin.AtSignupInvalidFirstName</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">37957 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AtSignupInvalidFirstName1</span>
+                <span class="method-start">48535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">54222 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.linkedIN.Linkedin.ValidLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">55101 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidLogin1</span>
+                <span class="method-start">65405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">72308 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.linkedIN.Linkedin.AtSignupInvalidPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">74440 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AtSignupInvalidFirstName1</span>
+                <span class="method-start">82022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">87676 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.linkedIN.Linkedin.AtInvalidBlank</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">88888 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Blank</span>
+                <span class="method-start">97975 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">103220 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.linkedIN.Linkedin.AtSigupInvalidLastName</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">104153 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AtSigupInvalidLastName1</span>
+                <span class="method-start">113631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">119366 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.linkedIN.Linkedin.AtLoginValidBack</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">120426 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AtLoginValidBack1</span>
+                <span class="method-start">129421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">136000 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.linkedIN.Linkedin.AtSignupInvalidPhone</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">136916 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AtSignupInvalidFirstName1</span>
+                <span class="method-start">145519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">151141 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.linkedIN.Linkedin.AtLoginInvalid</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">152285 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">invalid</span>
+                <span class="method-start">159706 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">166211 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.linkedIN.Linkedin.AtLoginInavlidBlankPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDriver</span>
+                <span class="method-start">167186 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Blank</span>
+                <span class="method-start">174674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">180025 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

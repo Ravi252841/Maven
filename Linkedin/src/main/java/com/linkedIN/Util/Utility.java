@@ -1,4 +1,4 @@
-package com.linkedIN.Linkedin;
+package com.linkedIN.Util;
 
 import org.openqa.selenium.WebDriver;
 

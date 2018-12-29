@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Dec 07 15:58:16 IST 2018</td>
+<td>Started on:</td><td>Sat Dec 29 16:06:07 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>37 seconds (37585 ms)</td>
+<tr><td>Total time:</td><td>180 seconds (180921 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,54 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidFirstName1()'><b>AtSignupInvalidFirstName1</b><br>Test class: com.linkedIN.Linkedin.AtSignupInvalidPhone</td>
+<td><div><pre>java.lang.AssertionError: Erro for data input expected [Please enter a valid phone number and select your country code.] but found [Please enter a valid first name]
+	at com.linkedIN.PageActions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
+	at com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidFirstName1(AtSignupInvalidPhone.java:24)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace936219350", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace936219350'><pre>java.lang.AssertionError: Erro for data input expected [Please enter a valid phone number and select your country code.] but found [Please enter a valid first name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.linkedIN.PageActions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
+	at com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidFirstName1(AtSignupInvalidPhone.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.linkedIN.Linkedin.AtSignupInvalidPhone@f6c48ac</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,10 +123,50 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.linkedIN.Linkedin.LoginPage.f()'><b>f</b><br>Test class: com.linkedIN.Linkedin.LoginPage</td>
+<td title='com.linkedIN.Linkedin.AtLoginValidBack.AtLoginValidBack1()'><b>AtLoginValidBack1</b><br>Test class: com.linkedIN.Linkedin.AtLoginValidBack</td>
 <td></td>
-<td>0</td>
-<td>com.linkedIN.Linkedin.LoginPage@39aeed2f</td></tr>
+<td>6</td>
+<td>com.linkedIN.Linkedin.AtLoginValidBack@464bee09</td></tr>
+<tr>
+<td title='com.linkedIN.Linkedin.AtSignupInavlidMail.AtSignupInavlidMail1()'><b>AtSignupInavlidMail1</b><br>Test class: com.linkedIN.Linkedin.AtSignupInavlidMail</td>
+<td></td>
+<td>9</td>
+<td>com.linkedIN.Linkedin.AtSignupInavlidMail@204f30ec</td></tr>
+<tr>
+<td title='com.linkedIN.Linkedin.AtSignupInvalidFirstName.AtSignupInvalidFirstName1()'><b>AtSignupInvalidFirstName1</b><br>Test class: com.linkedIN.Linkedin.AtSignupInvalidFirstName</td>
+<td></td>
+<td>5</td>
+<td>com.linkedIN.Linkedin.AtSignupInvalidFirstName@e25b2fe</td></tr>
+<tr>
+<td title='com.linkedIN.Linkedin.AtSignupInvalidPassword.AtSignupInvalidFirstName1()'><b>AtSignupInvalidFirstName1</b><br>Test class: com.linkedIN.Linkedin.AtSignupInvalidPassword</td>
+<td></td>
+<td>5</td>
+<td>com.linkedIN.Linkedin.AtSignupInvalidPassword@146ba0ac</td></tr>
+<tr>
+<td title='com.linkedIN.Linkedin.AtSigupInvalidLastName.AtSigupInvalidLastName1()'><b>AtSigupInvalidLastName1</b><br>Test class: com.linkedIN.Linkedin.AtSigupInvalidLastName</td>
+<td></td>
+<td>5</td>
+<td>com.linkedIN.Linkedin.AtSigupInvalidLastName@6eebc39e</td></tr>
+<tr>
+<td title='com.linkedIN.Linkedin.AtInvalidBlank.Blank()'><b>Blank</b><br>Test class: com.linkedIN.Linkedin.AtInvalidBlank</td>
+<td></td>
+<td>5</td>
+<td>com.linkedIN.Linkedin.AtInvalidBlank@4dfa3a9d</td></tr>
+<tr>
+<td title='com.linkedIN.Linkedin.AtLoginInavlidBlankPassword.Blank()'><b>Blank</b><br>Test class: com.linkedIN.Linkedin.AtLoginInavlidBlankPassword</td>
+<td></td>
+<td>5</td>
+<td>com.linkedIN.Linkedin.AtLoginInavlidBlankPassword@239963d8</td></tr>
+<tr>
+<td title='com.linkedIN.Linkedin.ValidLogin.ValidLogin1()'><b>ValidLogin1</b><br>Test class: com.linkedIN.Linkedin.ValidLogin</td>
+<td></td>
+<td>6</td>
+<td>com.linkedIN.Linkedin.ValidLogin@754ba872</td></tr>
+<tr>
+<td title='com.linkedIN.Linkedin.AtLoginInvalid.invalid()'><b>invalid</b><br>Test class: com.linkedIN.Linkedin.AtLoginInvalid</td>
+<td></td>
+<td>6</td>
+<td>com.linkedIN.Linkedin.AtLoginInvalid@13deb50e</td></tr>
 </table><p>
 </body>
 </html>

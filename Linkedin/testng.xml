@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<listeners>
+<listener class-name="com.linkedIN.Resources.CustomListener">
+</listener>
+</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.linkedIN.Linkedin.LoginPage"/>
+      <class name="com.linkedIN.Linkedin.AtSignupInavlidMail"/>
+      <class name="com.linkedIN.Linkedin.AtSignupInvalidFirstName"/>
+      <class name="com.linkedIN.Linkedin.ValidLogin"/>
+      <class name="com.linkedIN.Linkedin.AtSignupInvalidPassword"/>
+      <class name="com.linkedIN.Linkedin.AtInvalidBlank"/>
+      <class name="com.linkedIN.Linkedin.AtSigupInvalidLastName"/>
+      <class name="com.linkedIN.Linkedin.AtLoginValidBack"/>
+
+      <class name="com.linkedIN.Linkedin.AtSignupInvalidPhone"/>
+      <class name="com.linkedIN.Linkedin.AtLoginInvalid"/>
+      <class name="com.linkedIN.Linkedin.AtLoginInavlidBlankPassword"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

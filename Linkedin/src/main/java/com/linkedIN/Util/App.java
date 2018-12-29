@@ -1,4 +1,4 @@
-package com.linkedIN.Linkedin;
+package com.linkedIN.Util;
 
 /**
  * Hello world!
