@@ -1,4 +1,4 @@
-package com.linkedIN.Resources;
+package com.linkedIN.Resource;
 
 import java.util.concurrent.TimeUnit;
 

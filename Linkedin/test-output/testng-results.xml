@@ -1,101 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="10" passed="9">
+<testng-results skipped="0" failed="2" total="10" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="147635" started-at="2018-12-30T13:38:39Z" finished-at="2018-12-30T13:41:07Z">
+  <suite name="Suite" duration-ms="139440" started-at="2019-01-01T10:46:04Z" finished-at="2019-01-01T10:48:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="147635" started-at="2018-12-30T13:38:39Z" finished-at="2018-12-30T13:41:07Z">
+    <test name="Test" duration-ms="139440" started-at="2019-01-01T10:46:04Z" finished-at="2019-01-01T10:48:24Z">
       <class name="com.linkedIN.Linkedin.AtLoginInavlidBlankPassword">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInavlidBlankPassword@239963d8]" name="setUpDriver" is-config="true" duration-ms="6887" started-at="2018-12-30T19:10:54Z" finished-at="2018-12-30T19:11:01Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInavlidBlankPassword@39c0f4a]" name="setUpDriver" is-config="true" duration-ms="6245" started-at="2019-01-01T16:18:11Z" finished-at="2019-01-01T16:18:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="AtLoginInavlidBlankPasssword()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInavlidBlankPassword@239963d8]" name="AtLoginInavlidBlankPasssword" duration-ms="5370" started-at="2018-12-30T19:11:01Z" finished-at="2018-12-30T19:11:06Z">
+        <test-method status="PASS" signature="AtLoginInavlidBlankPasssword()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInavlidBlankPassword@39c0f4a]" name="AtLoginInavlidBlankPasssword" duration-ms="5544" started-at="2019-01-01T16:18:17Z" finished-at="2019-01-01T16:18:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AtLoginInavlidBlankPasssword -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInavlidBlankPassword@239963d8]" name="TearDown" is-config="true" duration-ms="815" started-at="2018-12-30T19:11:06Z" finished-at="2018-12-30T19:11:07Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInavlidBlankPassword@39c0f4a]" name="TearDown" is-config="true" duration-ms="1046" started-at="2019-01-01T16:18:23Z" finished-at="2019-01-01T16:18:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.linkedIN.Linkedin.AtLoginInavlidBlankPassword -->
       <class name="com.linkedIN.Linkedin.AtSignupInvalidFirstName">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidFirstName@e25b2fe]" name="setUpDriver" is-config="true" duration-ms="8513" started-at="2018-12-30T19:08:58Z" finished-at="2018-12-30T19:09:06Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidFirstName@6a4f787b]" name="setUpDriver" is-config="true" duration-ms="7755" started-at="2019-01-01T16:16:04Z" finished-at="2019-01-01T16:16:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="AtSignupInvalidFirstNamee()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidFirstName@e25b2fe]" name="AtSignupInvalidFirstNamee" duration-ms="5807" started-at="2018-12-30T19:09:06Z" finished-at="2018-12-30T19:09:12Z">
+        <test-method status="PASS" signature="AtSignupInvalidFirstNamee()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidFirstName@6a4f787b]" name="AtSignupInvalidFirstNamee" duration-ms="6256" started-at="2019-01-01T16:16:12Z" finished-at="2019-01-01T16:16:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AtSignupInvalidFirstNamee -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidFirstName@e25b2fe]" name="TearDown" is-config="true" duration-ms="880" started-at="2018-12-30T19:09:12Z" finished-at="2018-12-30T19:09:13Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidFirstName@6a4f787b]" name="TearDown" is-config="true" duration-ms="818" started-at="2019-01-01T16:16:18Z" finished-at="2019-01-01T16:16:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.linkedIN.Linkedin.AtSignupInvalidFirstName -->
       <class name="com.linkedIN.Linkedin.AtSignupInavlidMail">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInavlidMail@146ba0ac]" name="setUpDriver" is-config="true" duration-ms="8493" started-at="2018-12-30T19:09:27Z" finished-at="2018-12-30T19:09:35Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInavlidMail@7cd62f43]" name="setUpDriver" is-config="true" duration-ms="6459" started-at="2019-01-01T16:16:46Z" finished-at="2019-01-01T16:16:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="AtSignupInavlidMaill()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInavlidMail@146ba0ac]" name="AtSignupInavlidMaill" duration-ms="5804" started-at="2018-12-30T19:09:35Z" finished-at="2018-12-30T19:09:41Z">
+        <test-method status="FAIL" signature="AtSignupInavlidMaill()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInavlidMail@7cd62f43]" name="AtSignupInavlidMaill" duration-ms="5876" started-at="2019-01-01T16:16:52Z" finished-at="2019-01-01T16:16:58Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Erro for data input expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Erro for data input expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.pageactions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
+	at com.linkedIN.Linkedin.AtSignupInavlidMail.AtSignupInavlidMaill(AtSignupInavlidMail.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AtSignupInavlidMaill -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInavlidMail@146ba0ac]" name="TearDown" is-config="true" duration-ms="1345" started-at="2018-12-30T19:09:41Z" finished-at="2018-12-30T19:09:43Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInavlidMail@7cd62f43]" name="TearDown" is-config="true" duration-ms="940" started-at="2019-01-01T16:16:59Z" finished-at="2019-01-01T16:17:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.linkedIN.Linkedin.AtSignupInavlidMail -->
       <class name="com.linkedIN.Linkedin.AtInvalidBlank">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtInvalidBlank@754ba872]" name="setUpDriver" is-config="true" duration-ms="7856" started-at="2018-12-30T19:09:13Z" finished-at="2018-12-30T19:09:21Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtInvalidBlank@6a41eaa2]" name="setUpDriver" is-config="true" duration-ms="6282" started-at="2019-01-01T16:16:33Z" finished-at="2019-01-01T16:16:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="AtInvalidBlanck()[pri:0, instance:com.linkedIN.Linkedin.AtInvalidBlank@754ba872]" name="AtInvalidBlanck" duration-ms="5273" started-at="2018-12-30T19:09:21Z" finished-at="2018-12-30T19:09:26Z">
+        <test-method status="PASS" signature="AtInvalidBlanck()[pri:0, instance:com.linkedIN.Linkedin.AtInvalidBlank@6a41eaa2]" name="AtInvalidBlanck" duration-ms="5469" started-at="2019-01-01T16:16:39Z" finished-at="2019-01-01T16:16:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AtInvalidBlanck -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtInvalidBlank@754ba872]" name="TearDown" is-config="true" duration-ms="966" started-at="2018-12-30T19:09:26Z" finished-at="2018-12-30T19:09:27Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtInvalidBlank@6a41eaa2]" name="TearDown" is-config="true" duration-ms="937" started-at="2019-01-01T16:16:45Z" finished-at="2019-01-01T16:16:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.linkedIN.Linkedin.AtInvalidBlank -->
       <class name="com.linkedIN.Linkedin.AtSigupInvalidLastName">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtSigupInvalidLastName@464bee09]" name="setUpDriver" is-config="true" duration-ms="6319" started-at="2018-12-30T19:10:10Z" finished-at="2018-12-30T19:10:17Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtSigupInvalidLastName@5622fdf]" name="setUpDriver" is-config="true" duration-ms="6756" started-at="2019-01-01T16:17:28Z" finished-at="2019-01-01T16:17:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="AtSigupInvalidLastNamee()[pri:0, instance:com.linkedIN.Linkedin.AtSigupInvalidLastName@464bee09]" name="AtSigupInvalidLastNamee" duration-ms="5789" started-at="2018-12-30T19:10:17Z" finished-at="2018-12-30T19:10:23Z">
+        <test-method status="PASS" signature="AtSigupInvalidLastNamee()[pri:0, instance:com.linkedIN.Linkedin.AtSigupInvalidLastName@5622fdf]" name="AtSigupInvalidLastNamee" duration-ms="5790" started-at="2019-01-01T16:17:35Z" finished-at="2019-01-01T16:17:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AtSigupInvalidLastNamee -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtSigupInvalidLastName@464bee09]" name="TearDown" is-config="true" duration-ms="877" started-at="2018-12-30T19:10:23Z" finished-at="2018-12-30T19:10:23Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtSigupInvalidLastName@5622fdf]" name="TearDown" is-config="true" duration-ms="877" started-at="2019-01-01T16:17:40Z" finished-at="2019-01-01T16:17:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.linkedIN.Linkedin.AtSigupInvalidLastName -->
       <class name="com.linkedIN.Linkedin.AtLoginInvalid">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInvalid@13deb50e]" name="setUpDriver" is-config="true" duration-ms="5765" started-at="2018-12-30T19:10:40Z" finished-at="2018-12-30T19:10:46Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInvalid@7d9d1a19]" name="setUpDriver" is-config="true" duration-ms="5904" started-at="2019-01-01T16:17:57Z" finished-at="2019-01-01T16:18:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="AtLoginInvallid()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInvalid@13deb50e]" name="AtLoginInvallid" duration-ms="6896" started-at="2018-12-30T19:10:46Z" finished-at="2018-12-30T19:10:53Z">
+        <test-method status="PASS" signature="AtLoginInvallid()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInvalid@7d9d1a19]" name="AtLoginInvallid" duration-ms="6607" started-at="2019-01-01T16:18:03Z" finished-at="2019-01-01T16:18:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AtLoginInvallid -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInvalid@13deb50e]" name="TearDown" is-config="true" duration-ms="1107" started-at="2018-12-30T19:10:53Z" finished-at="2018-12-30T19:10:54Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtLoginInvalid@7d9d1a19]" name="TearDown" is-config="true" duration-ms="1015" started-at="2019-01-01T16:18:10Z" finished-at="2019-01-01T16:18:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.linkedIN.Linkedin.AtLoginInvalid -->
       <class name="com.linkedIN.Linkedin.AtSignupInvalidPhone">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPhone@204f30ec]" name="setUpDriver" is-config="true" duration-ms="10490" started-at="2018-12-30T19:08:39Z" finished-at="2018-12-30T19:08:50Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPhone@685cb137]" name="setUpDriver" is-config="true" duration-ms="6409" started-at="2019-01-01T16:16:19Z" finished-at="2019-01-01T16:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="FAIL" signature="AtSignupInvalidPhonee()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPhone@204f30ec]" name="AtSignupInvalidPhonee" duration-ms="6248" started-at="2018-12-30T19:08:50Z" finished-at="2018-12-30T19:08:56Z">
+        <test-method status="FAIL" signature="AtSignupInvalidPhonee()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPhone@685cb137]" name="AtSignupInvalidPhonee" duration-ms="5822" started-at="2019-01-01T16:16:25Z" finished-at="2019-01-01T16:16:31Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Erro for data input expected [Please enter a valid phone number and select your country code.] but found [Please enter a valid first name]]]>
@@ -106,8 +145,8 @@
 	at org.testng.Assert.failNotEquals(Assert.java:496)
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
-	at com.linkedIN.PageActions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
-	at com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidPhonee(AtSignupInvalidPhone.java:27)
+	at com.pageactions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
+	at com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidPhonee(AtSignupInvalidPhone.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -138,49 +177,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AtSignupInvalidPhonee -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPhone@204f30ec]" name="TearDown" is-config="true" duration-ms="804" started-at="2018-12-30T19:08:57Z" finished-at="2018-12-30T19:08:58Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPhone@685cb137]" name="TearDown" is-config="true" duration-ms="835" started-at="2019-01-01T16:16:32Z" finished-at="2019-01-01T16:16:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.linkedIN.Linkedin.AtSignupInvalidPhone -->
       <class name="com.linkedIN.Linkedin.AtLoginValidBack">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtLoginValidBack@f6c48ac]" name="setUpDriver" is-config="true" duration-ms="9137" started-at="2018-12-30T19:10:23Z" finished-at="2018-12-30T19:10:33Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtLoginValidBack@4883b407]" name="setUpDriver" is-config="true" duration-ms="8707" started-at="2019-01-01T16:17:41Z" finished-at="2019-01-01T16:17:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="AtLoginValidBackk()[pri:0, instance:com.linkedIN.Linkedin.AtLoginValidBack@f6c48ac]" name="AtLoginValidBackk" duration-ms="6591" started-at="2018-12-30T19:10:33Z" finished-at="2018-12-30T19:10:39Z">
+        <test-method status="PASS" signature="AtLoginValidBackk()[pri:0, instance:com.linkedIN.Linkedin.AtLoginValidBack@4883b407]" name="AtLoginValidBackk" duration-ms="6370" started-at="2019-01-01T16:17:50Z" finished-at="2019-01-01T16:17:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AtLoginValidBackk -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtLoginValidBack@f6c48ac]" name="TearDown" is-config="true" duration-ms="857" started-at="2018-12-30T19:10:39Z" finished-at="2018-12-30T19:10:40Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtLoginValidBack@4883b407]" name="TearDown" is-config="true" duration-ms="902" started-at="2019-01-01T16:17:56Z" finished-at="2019-01-01T16:17:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.linkedIN.Linkedin.AtLoginValidBack -->
       <class name="com.linkedIN.Linkedin.AtSignupInvalidPassword">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPassword@6eebc39e]" name="setUpDriver" is-config="true" duration-ms="6569" started-at="2018-12-30T19:09:57Z" finished-at="2018-12-30T19:10:04Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPassword@6093dd95]" name="setUpDriver" is-config="true" duration-ms="6172" started-at="2019-01-01T16:17:14Z" finished-at="2019-01-01T16:17:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="AtSignupInvalidPasswordd()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPassword@6eebc39e]" name="AtSignupInvalidPasswordd" duration-ms="5782" started-at="2018-12-30T19:10:04Z" finished-at="2018-12-30T19:10:10Z">
+        <test-method status="PASS" signature="AtSignupInvalidPasswordd()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPassword@6093dd95]" name="AtSignupInvalidPasswordd" duration-ms="5798" started-at="2019-01-01T16:17:21Z" finished-at="2019-01-01T16:17:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AtSignupInvalidPasswordd -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPassword@6eebc39e]" name="TearDown" is-config="true" duration-ms="923" started-at="2018-12-30T19:10:10Z" finished-at="2018-12-30T19:10:10Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.AtSignupInvalidPassword@6093dd95]" name="TearDown" is-config="true" duration-ms="1506" started-at="2019-01-01T16:17:26Z" finished-at="2019-01-01T16:17:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.linkedIN.Linkedin.AtSignupInvalidPassword -->
       <class name="com.linkedIN.Linkedin.ValidLogin">
-        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.ValidLogin@4dfa3a9d]" name="setUpDriver" is-config="true" duration-ms="7112" started-at="2018-12-30T19:09:43Z" finished-at="2018-12-30T19:09:50Z">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.linkedIN.Linkedin.ValidLogin@6d4b1c02]" name="setUpDriver" is-config="true" duration-ms="6850" started-at="2019-01-01T16:17:00Z" finished-at="2019-01-01T16:17:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDriver -->
-        <test-method status="PASS" signature="ValidLogin1()[pri:0, instance:com.linkedIN.Linkedin.ValidLogin@4dfa3a9d]" name="ValidLogin1" duration-ms="6499" started-at="2018-12-30T19:09:50Z" finished-at="2018-12-30T19:09:56Z">
+        <test-method status="PASS" signature="ValidLogin1()[pri:0, instance:com.linkedIN.Linkedin.ValidLogin@6d4b1c02]" name="ValidLogin1" duration-ms="6877" started-at="2019-01-01T16:17:07Z" finished-at="2019-01-01T16:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidLogin1 -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.ValidLogin@4dfa3a9d]" name="TearDown" is-config="true" duration-ms="945" started-at="2018-12-30T19:09:56Z" finished-at="2018-12-30T19:09:57Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.linkedIN.Linkedin.ValidLogin@6d4b1c02]" name="TearDown" is-config="true" duration-ms="854" started-at="2019-01-01T16:17:14Z" finished-at="2019-01-01T16:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

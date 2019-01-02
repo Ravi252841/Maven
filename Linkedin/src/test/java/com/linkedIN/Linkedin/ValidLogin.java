@@ -2,11 +2,8 @@ package com.linkedIN.Linkedin;
 
 import org.testng.annotations.Test;
 
-
-import com.linkedIN.PageActions.LoginPageActions;
-import com.linkedIN.Resources.TestBaseSetup;
-import com.linkedIN.Util.ExtentTestManager;
-import com.linkedIN.Util.GenericUtility;
+import com.pageactions.*;
+import com.linkedIN.Resource.*;
 import com.relevantcodes.extentreports.LogStatus;
 
 import java.io.IOException;

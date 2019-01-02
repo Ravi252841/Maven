@@ -3,10 +3,11 @@ package com.linkedIN.Linkedin;
 import org.testng.annotations.Test;
 import java.io.IOException;
 
-import com.linkedIN.PageActions.LoginPageActions;
-import com.linkedIN.Resources.TestBaseSetup;
-import com.linkedIN.Util.ExtentTestManager;
-import com.linkedIN.Util.GenericUtility;
+
+import com.linkedIN.Resource.TestBaseSetup;
+import com.pageactions.*;
+import com.linkedIN.Resource.ExtentTestManager;
+import com.linkedIN.Resource.GenericUtility;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class AtInvalidBlank extends TestBaseSetup {
@@ -14,7 +15,7 @@ public class AtInvalidBlank extends TestBaseSetup {
 	public void AtInvalidBlanck() throws IOException {
 		
 		ExtentTestManager.getTest().setDescription("AtInvalidBlank");
-		LoginPageActions Login = new LoginPageActions(driver);
+		LoginPageActions Login=new LoginPageActions(driver);
 		String Path = System.getProperty("user.dir") + "/TestData/Data.properties";
 		String Username = GenericUtility.getData(Path, "username_b");
 //        System.out.println(driver.getTitle());

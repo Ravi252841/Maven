@@ -1,4 +1,4 @@
-package com.linkedIN.Resources;
+package com.linkedIN.Resource;
 
 import java.io.IOException;
 
@@ -17,7 +17,7 @@ public class CustomListener implements ITestListener {
 		// TODO Auto-generated method stub
 		System.out.println("onTestStart -> Test Name: " + result.getName());
 		 //Start operation for extentreports.
-//		ExtentTestManager.startTest(result.getMethod().getMethodName(), "");
+	ExtentTestManager.startTest(result.getMethod().getMethodName(), "");
 		
 	}
 
@@ -42,9 +42,9 @@ public class CustomListener implements ITestListener {
 			e.printStackTrace();
 		}
 //		
-//	    String image = ExtentTestManager.getTest().addScreenCapture(imagepath);
+	    String image = ExtentTestManager.getTest().addScreenCapture(imagepath);
 	    
-		 ExtentTestManager.getTest().log(LogStatus.FAIL, "Test Failed");
+		 ExtentTestManager.getTest().log(LogStatus.FAIL, "Test Failed",image);
 	}
 
 	public void onTestSkipped(ITestResult result) {
@@ -68,6 +68,7 @@ public class CustomListener implements ITestListener {
 	public void onFinish(ITestContext context) {
 
 		System.out.println("onFinish -> Test Tag Name: " + context.getName());
+		
 		//Do tier down operations for extentreports reporting!
         ExtentTestManager.endTest();
         ExtentManager.getReporter().flush();

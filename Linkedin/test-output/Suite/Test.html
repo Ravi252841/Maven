@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Dec 30 19:08:39 IST 2018</td>
+<td>Started on:</td><td>Tue Jan 01 16:16:04 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>147 seconds (147635 ms)</td>
+<tr><td>Total time:</td><td>139 seconds (139440 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,18 +75,18 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidPhonee()'><b>AtSignupInvalidPhonee</b><br>Test class: com.linkedIN.Linkedin.AtSignupInvalidPhone</td>
-<td><div><pre>java.lang.AssertionError: Erro for data input expected [Please enter a valid phone number and select your country code.] but found [Please enter a valid first name]
-	at com.linkedIN.PageActions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
-	at com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidPhonee(AtSignupInvalidPhone.java:27)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace817686795", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace817686795'><pre>java.lang.AssertionError: Erro for data input expected [Please enter a valid phone number and select your country code.] but found [Please enter a valid first name]
+<td title='com.linkedIN.Linkedin.AtSignupInavlidMail.AtSignupInavlidMaill()'><b>AtSignupInavlidMaill</b><br>Test class: com.linkedIN.Linkedin.AtSignupInavlidMail</td>
+<td><div><pre>java.lang.AssertionError: Erro for data input expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]
+	at com.pageactions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
+	at com.linkedIN.Linkedin.AtSignupInavlidMail.AtSignupInavlidMaill(AtSignupInavlidMail.java:31)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace832292933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace832292933'><pre>java.lang.AssertionError: Erro for data input expected [Please enter a valid email address] but found [Please enter a valid email address or mobile number]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:496)
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
-	at com.linkedIN.PageActions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
-	at com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidPhonee(AtSignupInvalidPhone.java:27)
+	at com.pageactions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
+	at com.linkedIN.Linkedin.AtSignupInavlidMail.AtSignupInavlidMaill(AtSignupInavlidMail.java:31)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -112,8 +112,48 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>6</td>
-<td>com.linkedIN.Linkedin.AtSignupInvalidPhone@204f30ec</td></tr>
+<td>5</td>
+<td>com.linkedIN.Linkedin.AtSignupInavlidMail@7cd62f43</td></tr>
+<tr>
+<td title='com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidPhonee()'><b>AtSignupInvalidPhonee</b><br>Test class: com.linkedIN.Linkedin.AtSignupInvalidPhone</td>
+<td><div><pre>java.lang.AssertionError: Erro for data input expected [Please enter a valid phone number and select your country code.] but found [Please enter a valid first name]
+	at com.pageactions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
+	at com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidPhonee(AtSignupInvalidPhone.java:25)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1361817590", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1361817590'><pre>java.lang.AssertionError: Erro for data input expected [Please enter a valid phone number and select your country code.] but found [Please enter a valid first name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.pageactions.SingupPageActions.ErrorMessage(SingupPageActions.java:31)
+	at com.linkedIN.Linkedin.AtSignupInvalidPhone.AtSignupInvalidPhonee(AtSignupInvalidPhone.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.linkedIN.Linkedin.AtSignupInvalidPhone@685cb137</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -126,47 +166,42 @@ function toggleAllBoxes() {
 <td title='com.linkedIN.Linkedin.AtInvalidBlank.AtInvalidBlanck()'><b>AtInvalidBlanck</b><br>Test class: com.linkedIN.Linkedin.AtInvalidBlank</td>
 <td></td>
 <td>5</td>
-<td>com.linkedIN.Linkedin.AtInvalidBlank@754ba872</td></tr>
+<td>com.linkedIN.Linkedin.AtInvalidBlank@6a41eaa2</td></tr>
 <tr>
 <td title='com.linkedIN.Linkedin.AtLoginInavlidBlankPassword.AtLoginInavlidBlankPasssword()'><b>AtLoginInavlidBlankPasssword</b><br>Test class: com.linkedIN.Linkedin.AtLoginInavlidBlankPassword</td>
 <td></td>
 <td>5</td>
-<td>com.linkedIN.Linkedin.AtLoginInavlidBlankPassword@239963d8</td></tr>
+<td>com.linkedIN.Linkedin.AtLoginInavlidBlankPassword@39c0f4a</td></tr>
 <tr>
 <td title='com.linkedIN.Linkedin.AtLoginInvalid.AtLoginInvallid()'><b>AtLoginInvallid</b><br>Test class: com.linkedIN.Linkedin.AtLoginInvalid</td>
 <td></td>
 <td>6</td>
-<td>com.linkedIN.Linkedin.AtLoginInvalid@13deb50e</td></tr>
+<td>com.linkedIN.Linkedin.AtLoginInvalid@7d9d1a19</td></tr>
 <tr>
 <td title='com.linkedIN.Linkedin.AtLoginValidBack.AtLoginValidBackk()'><b>AtLoginValidBackk</b><br>Test class: com.linkedIN.Linkedin.AtLoginValidBack</td>
 <td></td>
 <td>6</td>
-<td>com.linkedIN.Linkedin.AtLoginValidBack@f6c48ac</td></tr>
-<tr>
-<td title='com.linkedIN.Linkedin.AtSignupInavlidMail.AtSignupInavlidMaill()'><b>AtSignupInavlidMaill</b><br>Test class: com.linkedIN.Linkedin.AtSignupInavlidMail</td>
-<td></td>
-<td>5</td>
-<td>com.linkedIN.Linkedin.AtSignupInavlidMail@146ba0ac</td></tr>
+<td>com.linkedIN.Linkedin.AtLoginValidBack@4883b407</td></tr>
 <tr>
 <td title='com.linkedIN.Linkedin.AtSignupInvalidFirstName.AtSignupInvalidFirstNamee()'><b>AtSignupInvalidFirstNamee</b><br>Test class: com.linkedIN.Linkedin.AtSignupInvalidFirstName</td>
 <td></td>
-<td>5</td>
-<td>com.linkedIN.Linkedin.AtSignupInvalidFirstName@e25b2fe</td></tr>
+<td>6</td>
+<td>com.linkedIN.Linkedin.AtSignupInvalidFirstName@6a4f787b</td></tr>
 <tr>
 <td title='com.linkedIN.Linkedin.AtSignupInvalidPassword.AtSignupInvalidPasswordd()'><b>AtSignupInvalidPasswordd</b><br>Test class: com.linkedIN.Linkedin.AtSignupInvalidPassword</td>
 <td></td>
 <td>5</td>
-<td>com.linkedIN.Linkedin.AtSignupInvalidPassword@6eebc39e</td></tr>
+<td>com.linkedIN.Linkedin.AtSignupInvalidPassword@6093dd95</td></tr>
 <tr>
 <td title='com.linkedIN.Linkedin.AtSigupInvalidLastName.AtSigupInvalidLastNamee()'><b>AtSigupInvalidLastNamee</b><br>Test class: com.linkedIN.Linkedin.AtSigupInvalidLastName</td>
 <td></td>
 <td>5</td>
-<td>com.linkedIN.Linkedin.AtSigupInvalidLastName@464bee09</td></tr>
+<td>com.linkedIN.Linkedin.AtSigupInvalidLastName@5622fdf</td></tr>
 <tr>
 <td title='com.linkedIN.Linkedin.ValidLogin.ValidLogin1()'><b>ValidLogin1</b><br>Test class: com.linkedIN.Linkedin.ValidLogin</td>
 <td></td>
 <td>6</td>
-<td>com.linkedIN.Linkedin.ValidLogin@4dfa3a9d</td></tr>
+<td>com.linkedIN.Linkedin.ValidLogin@6d4b1c02</td></tr>
 </table><p>
 </body>
 </html>

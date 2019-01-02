@@ -3,10 +3,8 @@ package com.linkedIN.Linkedin;
 import org.testng.annotations.Test;
 import java.io.IOException;
 
-import com.linkedIN.PageActions.SingupPageActions;
-import com.linkedIN.Resources.TestBaseSetup;
-import com.linkedIN.Util.ExtentTestManager;
-import com.linkedIN.Util.GenericUtility;
+import com.pageactions.*;
+import com.linkedIN.Resource.*;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class AtSigupInvalidLastName extends TestBaseSetup {

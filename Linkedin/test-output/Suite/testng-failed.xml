@@ -2,71 +2,72 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="com.linkedIN.Resources.CustomListener"/>
+    <listener class-name="com.linkedIN.Resource.CustomListener"/>
   </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.linkedIN.Linkedin.AtSignupInavlidMail">
-        <methods>
-          <include name="setUpDriver"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- com.linkedIN.Linkedin.AtSignupInavlidMail -->
-      <class name="com.linkedIN.Linkedin.AtSignupInvalidPassword">
-        <methods>
-          <include name="setUpDriver"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- com.linkedIN.Linkedin.AtSignupInvalidPassword -->
-      <class name="com.linkedIN.Linkedin.AtSignupInvalidFirstName">
-        <methods>
-          <include name="setUpDriver"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- com.linkedIN.Linkedin.AtSignupInvalidFirstName -->
       <class name="com.linkedIN.Linkedin.AtLoginInvalid">
         <methods>
           <include name="setUpDriver"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- com.linkedIN.Linkedin.AtLoginInvalid -->
-      <class name="com.linkedIN.Linkedin.AtSignupInvalidPhone">
-        <methods>
-          <include name="setUpDriver"/>
-          <include name="AtSignupInvalidPhonee"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- com.linkedIN.Linkedin.AtSignupInvalidPhone -->
-      <class name="com.linkedIN.Linkedin.AtSigupInvalidLastName">
-        <methods>
-          <include name="setUpDriver"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- com.linkedIN.Linkedin.AtSigupInvalidLastName -->
-      <class name="com.linkedIN.Linkedin.AtLoginValidBack">
-        <methods>
-          <include name="setUpDriver"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- com.linkedIN.Linkedin.AtLoginValidBack -->
-      <class name="com.linkedIN.Linkedin.AtLoginInavlidBlankPassword">
-        <methods>
-          <include name="setUpDriver"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- com.linkedIN.Linkedin.AtLoginInavlidBlankPassword -->
-      <class name="com.linkedIN.Linkedin.ValidLogin">
-        <methods>
-          <include name="setUpDriver"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- com.linkedIN.Linkedin.ValidLogin -->
       <class name="com.linkedIN.Linkedin.AtInvalidBlank">
         <methods>
           <include name="setUpDriver"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- com.linkedIN.Linkedin.AtInvalidBlank -->
+      <class name="com.linkedIN.Linkedin.AtLoginValidBack">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.linkedIN.Linkedin.AtLoginValidBack -->
+      <class name="com.linkedIN.Linkedin.AtSignupInvalidPhone">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="TearDown"/>
+          <include name="AtSignupInvalidPhonee"/>
+        </methods>
+      </class> <!-- com.linkedIN.Linkedin.AtSignupInvalidPhone -->
+      <class name="com.linkedIN.Linkedin.AtSignupInvalidFirstName">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.linkedIN.Linkedin.AtSignupInvalidFirstName -->
+      <class name="com.linkedIN.Linkedin.AtLoginInavlidBlankPassword">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.linkedIN.Linkedin.AtLoginInavlidBlankPassword -->
+      <class name="com.linkedIN.Linkedin.AtSignupInavlidMail">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="TearDown"/>
+          <include name="AtSignupInavlidMaill"/>
+        </methods>
+      </class> <!-- com.linkedIN.Linkedin.AtSignupInavlidMail -->
+      <class name="com.linkedIN.Linkedin.ValidLogin">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.linkedIN.Linkedin.ValidLogin -->
+      <class name="com.linkedIN.Linkedin.AtSignupInvalidPassword">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.linkedIN.Linkedin.AtSignupInvalidPassword -->
+      <class name="com.linkedIN.Linkedin.AtSigupInvalidLastName">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.linkedIN.Linkedin.AtSigupInvalidLastName -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
